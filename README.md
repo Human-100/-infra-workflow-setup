@@ -1,6 +1,8 @@
 # Infra Workflow Setup Leadgen 
 
-A step-by-step guide to setting up a complete infrastructure for team and organizational workflows. This guide is fully open-source and free to implement, with no paid tools required.  
+A step-by-step guide to setting up a complete infrastructure for team and organizational workflows. This guide is fully open-source and free to implement, with no paid tools required. 
+
+### This is a personal project i created during an internship at Mountech solutions.
 
 ## Overview  
 
@@ -145,14 +147,14 @@ If the command executes successfully, your authentication is set up correctly.
    - **Keep in mind that you are using cors for in your project for api connection otherwise you might face "request rejected" or "Failed to fetch" error while connecting**
 
 
-## Hooray! your team/organizational workflow is now up and running.
-To Access the site go to the project-name you set on netlify like
+### Hooray! your team/organizational workflow is now up and running.
 
+**To Access the site go to the project-name you set on netlify like**
 ```bash
 https://<your-netlify-project-name>.netlify.app
 ```
 
-### To test:
+#### To test:
  - Create a branch on the frontend main repo
  - make some changes, commit and push to origin <repo-name>
  - then in the browser enter
@@ -161,15 +163,10 @@ https://<reponame>--<project-name>.netlify.app
 ```
  - Basically use your new repo name with -- and you app url
 
-## There you go now each branch you create in the frontend repo will have its own subdomain url for you to preview.
+### There you go now each branch you create in the frontend repo will have its own subdomain url for you to preview.
 
 ### For the Backend repo changes only in the main branches will be reflected on the api.
 - You can create multiple branches there but the build will only trigger when there is a change in the main branch or when you merge or rebase your main branch.
 
 
-
-## This is a personal project i created during an internship at Mountech solutions
-
-****
-
-Hop
+## Happy Hosting ;)
