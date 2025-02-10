@@ -2,7 +2,7 @@
 
 A step-by-step guide to setting up a complete infrastructure for team and organizational workflows. This guide is fully open-source and free to implement, with no paid tools required. 
 
-### This is a personal project i created during an internship at Mountech solutions.
+### This is a personal project i created during my internship at Mountech solutions.
 
 ## Overview  
 
