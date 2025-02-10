@@ -1,4 +1,4 @@
-# Infra Workflow Setup  
+# Infra Workflow Setup Leadgen 
 
 A step-by-step guide to setting up a complete infrastructure for team and organizational workflows. This guide is fully open-source and free to implement, with no paid tools required.  
 
@@ -112,7 +112,7 @@ git ls-remote https://github.com/your-username/your-repo.git
 If the command executes successfully, your authentication is set up correctly.  
 
 
-### Step 4: Setup Frontend on Netlify
+### Step 4: Frontend setup on Netlify
 1. Open your Netlify account and add a new site by navigating to   
    - Dashboard > Add a new site > Import an existing project > Github 
    - Authorize Github and select your frontend repository
@@ -128,7 +128,25 @@ If the command executes successfully, your authentication is set up correctly.
    - Or you can use deploy keys within your github actions 
 
   
-### Step 4: Setup 
+### Step 5: Backend setup on Render
+1. Open your render account and add a new service by navigating to   
+   - Dashboard > Add new > Web Service > Github 
+   - Select git provider, Authorize github and choose the backend repository 
+   - Enter your project name, region, build and start commands
+   - Select the free instatance type
+   - Setup environment variables if you have any
+   - And then Deploy
+2. After the backend is successfully deployed you will get the link to your web service
+   - Copy that link
+  
+### Step 6: Connect frontend with backend
+   - Paste the copied backend link in the frontend source code where it is supposed to connect with backend
+   - **Keep in mind that you are using cors for in your project for api connection otherwise you might face "request rejected" or  while connecting**
+
+  
+ 
+
+
 
 
  
