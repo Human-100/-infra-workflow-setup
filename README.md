@@ -3,9 +3,6 @@
 A step-by-step guide to setting up a complete infrastructure for team and organizational workflows. This guide is fully open-source and free to implement, with no paid tools required. 
 
 ### This is a personal project i created during an internship at Mountech solutions.
-#### Model
-![Model Image](My-Model.png)
-
 
 ## Overview  
 
@@ -14,6 +11,9 @@ This guide will help you set up a complete infrastructure for deploying a MERN s
 - Completely free to use  
 - No paid tools required  
 - Easy to set up  
+
+#### Model Diagram
+![Model Diagram](Model-Diagram.png)
 
 ## Requirements  
 
