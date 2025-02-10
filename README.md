@@ -169,7 +169,7 @@ https://<reponame>--<project-name>.netlify.app
 ### There you go now each branch you create in the frontend repo will have its own subdomain url for you to preview.
 
 ### For the Backend repo changes only in the main branches will be reflected on the api.
-- You can create multiple branches there but the build & Deployment will only be trigger when there is a change in the main branch or when you merge or rebase your main branch.
+- You can create multiple branches there but the Build & Deployment will only be trigger when there is a change in the main branch or when you merge or rebase your main branch.
 
 
 ## Happy Hosting ;)
