@@ -101,7 +101,7 @@ EOF
    password=your-personal-access-token
    ```
 
-### Step 4: Verify Authentication  
+####  Verify Authentication  
 
 To check if GitHub recognizes your authentication, run:  
 
