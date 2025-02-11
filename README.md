@@ -162,7 +162,7 @@ https://<your-netlify-project-name>.netlify.app
  - make some changes, commit and push to origin <repo-name>
  - then in the browser enter
 ```bash
-https://<reponame>--<project-name>.netlify.app
+https://<branchname>--<project-name>.netlify.app
 ```
  - Basically use your new repo name with -- and you app url
 
